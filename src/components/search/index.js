@@ -13,7 +13,6 @@ const Search = () => {
       name: searchInputRef.current.value
     }).toString();
 
-    // imperatively redirect with history.push()
     history.push(`/search?${searchQuery}`);
   };
 
